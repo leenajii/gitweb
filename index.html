@@ -20,26 +20,28 @@
 <body>
 
 <!-- Navigation -->
-<nav>
+<nav class="navbar navbar-inverse">
     <div class="container-fluid">
-        <ul>
-            <li>Main</li>
-            <li>Article</li>
-            <li>Persona</li>
-            <li>Trends</li>
-            <li>More</li>
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#Main">Main</a></li>
+            <li><a href="#Persona">Persona</a></li>
+            <li><a href="#Trends">Trends</a></li>
         </ul>
     </div>
 </nav>
 
 <!-- Main container -->
 <div class="container-fluid">
-    <div class="row">
+    <div class="row" id="Main">
         <h2>Main</h2>
         <img class="img-responsive" src="http://images.clipartpanda.com/fashion-clip-art-11949852761236337683silouettedonnavestiti.svg.med.png"/>
     </div>
 
-    <div class="row">
+    <div class="row" id="Persona">
         <h2>Persona</h2>
 
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros
@@ -58,7 +60,7 @@
     </div>
 
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12" id="Trends">
             <h2>Trends</h2>
         </div>
     </div>
