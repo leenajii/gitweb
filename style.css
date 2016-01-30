@@ -19,7 +19,7 @@
     100% {width: 100%; }
 }
 body{
-    background: #392f28;
+    background: #ffffff;
 }
 main{
     width: 100%;
@@ -63,10 +63,10 @@ main{
 .bar{
     width: 100%;
     height: 200px;
-    background: -moz-linear-gradient(289deg, #3a2d2d 0%, #725b5b 36%, #3a2d2d 100%);
-    background: -webkit-linear-gradient(289deg, #3a2d2d 0%, #725b5b 36%, #3a2d2d 100%);
-    background: -ms-linear-gradient(289deg, #3a2d2d 0%, #725b5b 36%, #3a2d2d 100%);
-    background: linear-gradient(161deg, #3a2d2d 0%, #725b5b 36%, #3a2d2d 100%);
+    background: -moz-linear-gradient(289deg, #ffffff 0%, #725b5b 36%, #ffffff 100%);
+    background: -webkit-linear-gradient(289deg, #ffffff 0%, #725b5b 36%, #ffffff 100%);
+    background: -ms-linear-gradient(289deg, #ffffff 0%, #725b5b 36%, #ffffff 100%);
+    background: linear-gradient(161deg, #ffffff 0%, #725b5b 36%, #ffffff 100%);
     opacity: 0.3;
     position: absolute;
     z-index: 0;
