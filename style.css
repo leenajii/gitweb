@@ -26,6 +26,10 @@ main{
     overflow: hidden;
     font-family: 'Expletus Sans', cursive;
 }
+.nolap{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
 .hero{
     width: 100%;
     max-width: 1200px;
